@@ -25,7 +25,9 @@ function renderHTML(data) {
     for (ii = 0; ii < data[i].foods.likes.length; ii++) {
       htmlString += data[i].foods.likes[ii];
     }
+
     htmlString += '.</p>';
+    
   }
 
   animalContainer.insertAdjacentHTML("beforeend", htmlString);
